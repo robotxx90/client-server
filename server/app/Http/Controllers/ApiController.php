@@ -58,6 +58,7 @@ class ApiController extends Controller
                                 'amount' => strval($request->amount)
                     ]);
                     $json['id'] = $item->id;
+                    $json['success'] = true;
                     break;
             }
         }
